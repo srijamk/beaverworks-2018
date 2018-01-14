@@ -34,9 +34,11 @@ print(num ** 0.5)
 
 # -b + square (b^2-4ac) / 2
 
+
 def solve_quad(a, b, c):
 
-    return ((-b + math.sqrt(b*b - 4*a*c)) / (2*a), (-b - math.sqrt(b*b - 4*a*c)) / (2*a))
+    return (-b + math.sqrt(b*b - 4*a*c)) / (2*a), (-b - math.sqrt(b*b - 4*a*c)) / (2*a)
+
 
 print(solve_quad(1, 3, 2))
 
