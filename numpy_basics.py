@@ -33,3 +33,5 @@ x = np.linspace(0, 2*pi, 100)
 f = np.sin(x)
 print(f)  # sin function!
 
+a = a.reshape(10, 1)
+print(a*b)  # element-wise multiplication

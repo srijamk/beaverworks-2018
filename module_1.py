@@ -46,3 +46,18 @@ a = np.array([3.14, 1, 2, 3])
 print(a.dtype.name)
 print(type(a[2]))
 
+b = np.zeros((4, 6), dtype=int)
+print(b)
+c = np.ones((2, 3), dtype=int)
+print(c)
+b[2:4, 2:5] = c
+print(b)
+
+rand_num = np.random.rand(10000)
+print(rand_num)
+
+print(np.average(rand_num))
+
+run_mean = np.add.accumulate(rand_num)
+run_mean = run_mean / np.arange(1, 10001)
+print(run_mean)
