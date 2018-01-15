@@ -1,27 +1,37 @@
-""" Write code that, given x (an integer), returns the string "three" if x is a multiple of 3, "five" if x is a
-    multiple of 5 and the string "threefive" if x is a multiple of both 3 and 5.
-
-    If none of those conditions are true, simply return x.
-
-    You may assume that your input is an integer >= 1
 """
 
-def my_function(x):
+Write code that, given `my_str`, returns True if that string is a palindrome,
+and False otherwise.
+
+A palindrome is a word/phrase that is the same backwards as forwards (e.g. "race car").
+Single-letter strings (e.g. "I") should be considered palindromes
+
+You may assume that the input is a valid, lower-case string. However, the string
+might have white-space, which you should remove.
+
+HINT: If the first and last letters don't match, you know for a fact that the string
+can't be a palindrome. Use your control flow tools to make your code more efficient
+by stopping execution as soon as you know the answer.
+
+"""
+
+
+def my_function(my_str):
     """ Parameters
         ----------
-        x : int
-            An integer > 0.
+        my_str : str
+            The word/phrase to be analyzed
 
         Returns
         -------
-        Union[str, int]
-            Either "three", "threefive", or x.
+        True if my_str is a palindrome, False otherwise.
     """
-    # REMOVE "pass" AND WRITE YOUR CODE HERE
-    if x % 3 == 0 and x % 5 != 0:
-        return "three"
-    elif x % 5 == 0 and x % 3 != 0:
-        return "five"
-    elif x % 3 == 0 and x % 5 == 0:
-        return "threefive"
-    return x
+
+    my_str = my_str.replace(" ", "")
+    while len(my_str) > 1:
+        if my_str[0] == my_str[len(my_str) - 1]:
+            my_str = my_str[1:len(my_str) - 1]
+        else:
+            return False
+
+    return True
