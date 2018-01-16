@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4cdbe2f-18f9-4a3c-8540-2a3a3c83e4e2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/grader.pyz" afterPath="$PROJECT_DIR$/grader.pyz" />
-      <change beforePath="$PROJECT_DIR$/student.py" afterPath="$PROJECT_DIR$/student.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/grader_cost.pyz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_cost.py" />
+      <change beforePath="$PROJECT_DIR$/grader.pyz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/student.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="student.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/student.py">
+      <file leaf-file-name="student_cost.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/student_cost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="233">
+              <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -200,10 +201,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student.py">
+    <entry file="file://$PROJECT_DIR$/student_cost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="233">
+          <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
           <folding />
         </state>
       </provider>
