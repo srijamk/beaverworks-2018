@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4cdbe2f-18f9-4a3c-8540-2a3a3c83e4e2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/grader_cost.pyz" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_cost.py" />
-      <change beforePath="$PROJECT_DIR$/grader.pyz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/student.py" afterPath="" />
-    </list>
+    <list default="true" id="f4cdbe2f-18f9-4a3c-8540-2a3a3c83e4e2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +24,8 @@
       <file leaf-file-name="student_cost.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/student_cost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+            <state relative-caret-position="638">
+              <caret line="126" column="18" lean-forward="true" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -203,8 +198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student_cost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        <state relative-caret-position="638">
+          <caret line="126" column="18" lean-forward="true" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
           <folding />
         </state>
       </provider>
